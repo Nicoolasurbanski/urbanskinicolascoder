@@ -94,22 +94,25 @@ header {
     font-size: 1rem;
     color: whitesmoke;
     float: right;
+    
 }
 .header_cuatro {
     color: red;
-    animation-duration: 100ms;
+    animation-duration: 1s;
     animation-name: cuatro;
-    animation-delay: 2s;
+    animation-delay: 3gits;
     animation-direction: alternate;
     animation-iteration-count:infinite;
 }
     @keyframes cuatro {
         0%{
             opacity: 0;
+            color: yellow;
             
         }
         100%{
             opacity: 1;
+            color: red;
         }
         
     }
